@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<div class="container " style="opacity:0.95;">
+  <div class="jumbotron">
+  <h4>Představení se jako finanční poradkyně</h4>
+  <p>Jako finanční poradce jsem měla tu čest spolupracovat již s několika desítkami klientů,zejména pak s několika významnými společnostmi.
+    Jednalo se o jedny z nejvýznamějších finančních ústavů na českém trhu, například společnost ČSOB, <strong>Koperativa</strong>, Česká spořitelna, <strong>UNIQA</strong>,
+    Česká podnikatelská pojišťovna, Raiffeisenbank nebo Raiffeisen stavební spořitelna.
+  </p>
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="{{url_for('static',filename="Uniqa_logo.jpg")}}" alt="" alt="uniqa logo">
+    <div class="card-body">
+      <h5 class="card-title">Souhrn typu spolupráce</h5>
+      <p class="card-text">Se společností <small class="text-muted"><a href="https://www.uniqa.cz/">UNIQA</a></small> jsem intezivně spolupracovala na několika zajímavých projektech a ze všech těchto projektů jsem byla nadšená !</p>
+      <p class="card-text"><small class="text-muted"><a href="https://www.uniqa.cz/">UNIQA</a></small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="{{url_for('static',filename="kooperativa.png")}}" alt="" alt="Raiffeisenbank logo" height="350">
+    <div class="card-body">
+      <h5 class="card-title">Souhrn typu spolupráce</h5>
+      <p class="card-text">firma <small class="text-muted"><a href="https://www.koop.cz/">Kooperativa</a></small> je také významný hráč  a nejen v České republice. Měla jsem tu čest s touto firmou několikrát spolupracovat v rámci jejich finančních produktů.</p>
+      <p class="card-text"><small class="text-muted"><a href="https://www.koop.cz/">Kooperativa</a></small></p>
+    </div>
+  </div>
+  <div class="card bg-white text-black text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Mimo mé bohaté zkušenosti z praxe jsem absolvovala hned několik kurzů pro finanční poradce, které rozšířili nejen mé profesní obzory.</p>
+
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Představení se jako člověka</h5>
+      <p class="card-text">Jsem velká nadšenkyně do finanční sféry jako takové, mezi mé mimoprofesní zaliby patří rodina vycházky se psem.</p>
+      <p class="card-text"><small class="text-muted">Marcela Bajerová</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img" src="{{url_for('static',filename="Marcela.jpg")}}" alt="Marcela foto" alt="Card image">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Poradce, který naslouchá, je jak dobrý poradce, tak i člověk.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Z deníku dobrého <cite title="Source Title">finančního poradce</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+
+</div>
+
+</div>
+<br>
+<br>
+<br>
+{% endblock %}

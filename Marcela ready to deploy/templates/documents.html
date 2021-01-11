@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<div class="container ">
+  <div class="jumbotron" style="opacity:0:9;">
+    <h1>Doposud získáné osvědčení</h1>
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <img src="{{url_for('static',filename="2.jpg")}}" class="d-block w-100" width="77px" height="500" alt="osvědčení">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="{{url_for('static',filename="1.jpg")}}" class="d-block w-100" width="77px" height="500" alt="osvědčení2">
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Předchozí</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Další</span>
+  </a>
+</div>
+<br>
+</div>
+</div>
+</div>
+
+
+
+{% endblock %}

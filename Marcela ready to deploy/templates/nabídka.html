@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<div class="container">
+
+<div class="row">
+
+  <div class="card border-secondary mb-3 bg-light text-black" style="max-width: 18rem;margin: 25px 25px;border: 2 px;opacity:0.9;">
+    <div class="card-header"><h4>Životní pojištění</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">Bližší popis</h5>
+      <p class="card-text">Na trhu existuje velká nabídka <b>životních pojištění</b>, ve které je náročné se vyznat. Liší se například různou pojistnou ochranou a mírou flexibility.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+
+  <div class="card border-secondary mb-3 bg-light text-black" style="max-width: 18rem;margin: 25px 25px;border: 2 px;opacity:0.9;">
+    <div class="card-header"><h4>Pojištění silničních vozidel</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">bližší popis</h5>
+      <p class="card-text">Pokud potřebujete vyřídit <b>povinné ručení</b> a nevíte si rady nebo si nejste jistí jaké <b>havarijní pojištění</b>, tato služba je pro Vás.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+
+
+  <div class="card border-secondary mb-3 bg-light text-black" style="max-width: 18rem;margin: 25px 25px;border: 2 px;opacity:0.9;">
+    <div class="card-header"><h4>Penzijní pojištění</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">bližší popis</h5>
+      <p class="card-text">Pokud budete mít správně nastavené <b>penzijní pojištění</b> zajístí Vás ve stáří. Já Vám zajistím <b>penzijní pojištění</b> na míru.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+
+  <div class="card border-secondary mb-3 bg-light text-black" style="max-width: 18rem;margin: 25px 25px;border: 2 px;opacity:0.9;">
+    <div class="card-header"><h4>Stavební spoření</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">bližší popis</h5>
+      <p class="card-text">Výběr výhodného <b>stavebního spoření</b> je v dnešní době mnohem komplikovanější, než by se na první pohled mohlo zdát. Existuje mnoho produktů ve kterém se význá jen profesionál.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+  <div class="card border-secondary mb-3 bg-light text-black" style="max-width: 18rem;margin: 25px 25px;border: 2 px;opacity:0.9;">
+    <div class="card-header"><h4>Hypotéky a úvěry</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">bližší popis</h5>
+      <p class="card-text">Zařízení <b>hypotéky</b> je v dnešní době základem např. pro vlastní bydlení, a je to částokrát náročný úkol. Je třeba zařídit mnoho věcí. Se všemi náležitostmi Vám ovšem mohu pomoci.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+  <div class="card border-secondary mb-3 bg-light text-black" style="opacity:0.9;margin: 25px 25px;border: 2 px;max-width: 18rem;">
+    <div class="card-header"><h4>Úrazové pojištění</h4></div>
+    <div class="card-body text-dark">
+      <h5 class="card-title">bližší popis</h5>
+      <p class="card-text"><b>Úrazové pojištění</b> je druh pojištění, který zahrnuje výplatu pojistného v případě, že v důsledku úrazu dojde k přechodnému nebo trvalému tělesnému poškození, či smrti pojištěného.</p>
+      <button type="button" class="btn btn-light" style="border: 1px solid">
+        <a href="{{url_for('contact_person')}}">Poptat službu</a></button>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br><br>
+{% endblock %}
